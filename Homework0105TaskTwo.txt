@@ -1,0 +1,43 @@
+public class Homework0105Task2 {
+
+    public static void main(String[] args) {
+
+
+
+        double numberOne = 6;
+        double numberTwo = 3.5;
+
+        System.out.println(resultOfAddiction(numberOne, numberTwo));
+        System.out.println(resultOfSubtraction(numberOne, numberTwo));
+        System.out.println(resultOfMultiplication(numberOne, numberTwo));
+        System.out.println(resultOfDivision(numberOne,numberTwo));
+
+        }
+        static double resultOfAddiction (double summandOne, double summandTwo) {
+
+        double resultOfAddition = summandOne + summandTwo;
+        return resultOfAddition;
+    }
+
+        static double resultOfSubtraction (double minuend, double subtrahend) {
+
+        double resultOfSubtraction = minuend - subtrahend;
+        return resultOfSubtraction;
+        }
+
+        static double resultOfMultiplication (double multiplicanda, double multiplier) {
+
+        double resultOfMultiplication = multiplicanda * multiplier;
+        return resultOfMultiplication;
+
+        }
+
+        static double resultOfDivision (double dividend, double divisor) {
+
+        double resultOfDivision = dividend / divisor;
+        return resultOfDivision;
+
+        }
+}
+
+

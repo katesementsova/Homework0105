@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Homework0105Task3 {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите сумму в Евро : ");
+        double euro = scanner.nextDouble();
+        double currentExchangeRate = 1.09;
+        System.out.println("При курсе " + currentExchangeRate + "USD за 1 EUR, при обмене " + euro + "EUR, Вы получите " + resultOfExchange(euro, currentExchangeRate) + "USD" );
+
+    }
+
+        static double resultOfExchange (double countOfEuro, double exchangeRate) {
+
+        double dollars = countOfEuro * exchangeRate;
+        return dollars;
+
+    }
+}
